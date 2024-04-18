@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17484671, g: 0.21871762, b: 0.30099854, a: 1}
+  m_IndirectSpecularColor: {r: 0.1748464, g: 0.21871684, b: 0.30099744, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -702,7 +702,7 @@ GameObject:
   - component: {fileID: 1119631179}
   - component: {fileID: 1119631178}
   m_Layer: 0
-  m_Name: Plane (1)
+  m_Name: sand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -750,7 +750,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: -1114199533890271507, guid: bb7b3119ec113c2459458f9013197f78, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2232,8 +2232,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1678004674}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.1176, z: 0}
+  m_LocalRotation: {x: -0.07972785, y: -0.444059, z: 0.030109426, w: -0.8919353}
+  m_LocalPosition: {x: -2.65, y: 1.1176, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2241,7 +2241,7 @@ Transform:
   - {fileID: 1641826019}
   - {fileID: 1132488850}
   m_Father: {fileID: 1374000806}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 170.272, y: -486.982, z: 540.994}
 --- !u!1 &1719177419
 GameObject:
   m_ObjectHideFlags: 0
