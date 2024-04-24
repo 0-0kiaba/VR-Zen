@@ -20,7 +20,6 @@ public class FishCircleVariation : MonoBehaviour
 
     
 
-
     //float variable that 
     float timer = 0;
 
@@ -34,10 +33,15 @@ public class FishCircleVariation : MonoBehaviour
 
     //function that 
     void updatedMove(){
+        //moves in the x-Axis based on a cosine wave
         float x = xDifference * Mathf.Cos(timer);
+        //moves in the z-axis based on a sine wave
         float z = zDifference * Mathf.Sin(timer);
+        //moves the y-axis up and down with sine waves
         float newY = verticalHeight * Mathf.Sin(timer);
+        //gives a new vector 3 based on the calculated values
         Vector3 pos = new Vector3(x,newY,z);
+        //sets the objects position to be updated based on the center's location
         transform.position = pos + centerPoint.position;
     }
 }
