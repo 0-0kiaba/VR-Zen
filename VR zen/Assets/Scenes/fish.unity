@@ -1897,7 +1897,7 @@ MonoBehaviour:
   topBorder: {fileID: 1683939418}
   horizontalBorder: {fileID: 1649688507}
   moveSpeed: 0.25
-  lookSpeed: 0.5
+  lookSpeed: 0.25
 --- !u!1 &1167916332
 GameObject:
   m_ObjectHideFlags: 0
@@ -2014,7 +2014,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 15
+  m_Radius: 5
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
